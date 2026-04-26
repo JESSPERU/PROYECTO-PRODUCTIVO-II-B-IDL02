@@ -1,0 +1,4 @@
+id_sku,nombre_producto,categoria,formato,lead_time_dias,etl_fecha_carga
+SKU_500ML,Botella_500ml,Personal,,2,2026-04-26 02:34:48.585537
+SKU_1L,Botella_1L,Personal,,2,2026-04-26 02:34:48.585537
+SKU_20L,Bidon_20L,Familiar,,5,2026-04-26 02:34:48.585537
