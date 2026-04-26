@@ -1,0 +1,11 @@
+id,nombre_tabla,metodo_carga,ultima_carga,estado,sp_name
+1,ads_campanas_maestro,DELTA,2026-04-26 02:27:48.333615,ACTIVE,silver.sp_transformar_maestros
+4,sap_canales_maestro,DELTA,2026-04-26 02:27:49.423192,ACTIVE,silver.sp_transformar_maestros
+5,sap_clientes_maestro,DELTA,2026-04-26 02:27:50.428872,ACTIVE,silver.sp_transformar_maestros
+7,sap_productos_maestro,DELTA,2026-04-26 02:27:51.334292,ACTIVE,silver.sp_transformar_maestros
+2,ads_insights_diario,DELTA,2026-04-26 02:27:52.468594,ACTIVE,silver.sp_transformar_hechos
+3,clima_diario_log,DELTA,2026-04-26 02:27:53.595415,ACTIVE,silver.sp_transformar_hechos
+6,sap_inventario_diario,DELTA,2026-04-26 02:27:54.759544,ACTIVE,silver.sp_transformar_hechos
+8,sap_ventas_cabecera,DELTA,2026-04-26 02:27:55.756537,ACTIVE,silver.sp_transformar_hechos
+9,sap_ventas_detalle,DELTA,2026-04-26 02:27:56.765467,ACTIVE,silver.sp_transformar_hechos
+10,ml_feature_set,DELTA,,ACTIVE,gold.sp_generar_ml_feature_set
