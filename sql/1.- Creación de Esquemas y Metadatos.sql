@@ -20,3 +20,7 @@ INSERT INTO meta.pipeline_config (nombre_tabla) VALUES
 ('sap_productos_maestro'), ('sap_ventas_cabecera'), ('sap_ventas_detalle')
 ON CONFLICT DO NOTHING;
 
+-- Agregamos la restricción de unicidad a la columna nombre_tabla
+ALTER TABLE meta.pipeline_config 
+ADD CONSTRAINT unique_nombre_tabla UNIQUE (nombre_tabla);
+
