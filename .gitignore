@@ -1,0 +1,5 @@
+venv_etl/
+assets/*.csv
+.secret
+__pycache__/
+.ipynb_checkpoints/
